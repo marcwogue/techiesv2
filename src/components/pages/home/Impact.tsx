@@ -38,47 +38,47 @@ const stats = [
       icon: <Users className="w-6 h-6 text-secondary" />, 
       color: "bg-secondary-foreground" 
     },
-    { 
-      label: "Brunchs Organisés", 
-      value: "15+", 
-      icon: <Calendar className="w-6 h-6 text-primary" />, 
-      color: "bg-primary-content" 
-    },
-    { 
-      label: "Xperience", 
-      value: "1", 
-      icon: <Sparkles className="w-6 h-6 text-secondary" />, 
-      color: "bg-secondary-content" 
-    },
-    { 
-      label: "Villes", 
-      value: "2", 
-      icon: <MapPin className="w-6 h-6 text-primary" />, 
-      color: "bg-primary-content" 
-    },
-    { 
-      label: "Online Events", 
-      value: "10+", 
-      icon: <Video className="w-6 h-6 text-secondary" />, 
-      color: "bg-secondary-content" 
-    },
-    { 
-      label: "Impactful Talks", 
-      value: "20+", 
-      icon: <Mic className="w-6 h-6 text-primary" />, 
-      color: "bg-primary-content" 
-    },
-    { 
-      label: "Speakers", 
-      value: "15+", 
-      icon: <Users className="w-6 h-6 text-secondary" />, 
-      color: "bg-secondary-foreground" 
-    },
+  { 
+    label: "Brunchs Organisés", 
+    value: "15+", 
+    icon: <Calendar className="w-6 h-6 text-primary" />, 
+    color: "bg-primary-content" 
+  },
+  { 
+    label: "Xperience", 
+    value: "1", 
+    icon: <Sparkles className="w-6 h-6 text-secondary" />, 
+    color: "bg-secondary-content" 
+  },
+  { 
+    label: "Villes", 
+    value: "2", 
+    icon: <MapPin className="w-6 h-6 text-primary" />, 
+    color: "bg-primary-content" 
+  },
+  { 
+    label: "Online Events", 
+    value: "10+", 
+    icon: <Video className="w-6 h-6 text-secondary" />, 
+    color: "bg-secondary-content" 
+  },
+  { 
+    label: "Impactful Talks", 
+    value: "20+", 
+    icon: <Mic className="w-6 h-6 text-primary" />, 
+    color: "bg-primary-content" 
+  },
+  { 
+    label: "Speakers", 
+    value: "15+", 
+    icon: <Users className="w-6 h-6 text-secondary" />, 
+    color: "bg-secondary-foreground" 
+  },
 ];
 
 export default function ImpactSection() {
   return (
-    <section className="py-24 overflow-auto px-4 bg-base-300">
+    <section className="py-24 px-4 bg-base-300">
       {/* Titre + Texte */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

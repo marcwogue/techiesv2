@@ -8,7 +8,6 @@ import Join from './Join'
 const Home = () => {
   return (
     <div className='overflow-hidden relative'>
-      <PinnedWrapper>
         <HeroesSlide/>
         
         <HomeIframe src="https://www.youtube.com/embed/dnJ0Q3iAHTQ?list=RDdnJ0Q3iAHTQ" />
@@ -16,7 +15,6 @@ const Home = () => {
           <ImpactSection/>
         <Join/>
         
-      </PinnedWrapper>
     </div>
   )
 }
